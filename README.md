@@ -16,11 +16,12 @@
 ├── README.md
 ├── .gitignore
 ├── .gitattributes
-├── push-to-github.cmd      # 本机专用：双击即推送
+├── auto-push.cmd           # 本机专用：一键建仓库 + 推送（推荐先试这个）
+├── push-to-github.cmd      # 本机专用：只推送
 └── check-github.cmd        # 本机专用：检查/创建远程仓库
 ```
 
-> 两个 `.cmd` 是给当前这台机器写的辅助脚本，里面的路径和代理端口是固定的，换台电脑需要改开头的 `REPO` / `PROXY` 变量。
+> 三个 `.cmd` 是给当前这台机器写的辅助脚本，里面的路径和代理端口是固定的，换台电脑需要改开头的 `REPO` / `PROXY` 变量。
 > 注意：`.cmd` 文件**必须保持 CRLF 换行**，否则 `cmd.exe` 解析中文会报 `'...' is not recognized as an internal or external command`。
 
 ## 推送到 GitHub

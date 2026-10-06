@@ -33,6 +33,7 @@ temp/
 ~$*
 .git/push-log.txt
 push-log.txt
+.git/gh-*.txt
 
 # ---- 编辑器 / 系统 ----
 .vscode/
