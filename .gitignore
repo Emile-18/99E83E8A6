@@ -31,6 +31,8 @@ tmp/
 temp/
 *.tmp
 ~$*
+.git/push-log.txt
+push-log.txt
 
 # ---- 编辑器 / 系统 ----
 .vscode/
