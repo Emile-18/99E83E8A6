@@ -31,7 +31,7 @@ if "%CH%"=="2" goto status
 if "%CH%"=="3" goto end
 
 echo.
-echo 正在推送...  如果弹出浏览器，请登录你的 GitHub 账号授权。
+echo 正在推送... 如果弹出浏览器，请登录你的 GitHub 账号授权。
 echo 不要关这个窗口，等它跑完。
 echo.
 git -c http.proxy=%PROXY% -c credential.helper="%GCM%" push -u origin main > "%CACHE%" 2>&1
