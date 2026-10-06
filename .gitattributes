@@ -1,0 +1,25 @@
+# 统一换行符，避免 Windows / macOS / Linux 之间产生无意义的整文件 diff
+* text=auto eol=lf
+
+# 二进制文件不做换行转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.xlsx binary
+*.docx binary
+*.pptx binary
+
+# 常见文本类型
+*.md   text
+*.txt  text
+*.json text
+*.yml  text
+*.yaml text
+*.sh   text eol=lf
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+*.ps1  text eol=crlf
